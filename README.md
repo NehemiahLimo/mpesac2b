@@ -11,7 +11,7 @@ MPESA C2B API integration. A demo on MPESA C2B
          'ShortCode' =>  $shortcode,
          'CommandID' => 'CustomerPayBillOnline',
          'Amount' => '2',
-         'Msisdn' => '254708843466',
+         'Msisdn' => '254725443442',
          'BillRefNumber' => '00000'
   );
   $data_string = json_encode($curl_post_data);
